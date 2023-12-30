@@ -1,10 +1,24 @@
-# Express-Session-Auth-Starter
-This repository provides a starter template for session-based user authentication using Passport.js in an Express.js application. It includes a basic setup for user registration and login routes, along with password hashing and salting for secure storage. The project uses MongoDB as a database, with Mongoose for object modeling.
+## Disclaimer
 
-The repository is structured to separate concerns, with authentication middleware, password utilities, and configuration files each in their own modules. This makes the codebase easier to understand and maintain.
+The patterns shown in this repository are meant for educational purposes.  While this is sufficiently secure to use for personal projects, there are considerations not mentioned in this tutorial series that should be explored for an enterprise-grade implementation.
 
-Please note that while this setup provides a solid foundation for personal projects, additional security considerations may be necessary for enterprise-grade applications. This repository is primarily intended for educational purposes to demonstrate the basics of session-based authentication in Express.js.
+In other words, this will get you 95% of the way there, but do you own research to ensure your implementation is secure!
 
-To get started with this repository, simply clone it, install the dependencies listed in the `package.json` file using `npm i`, and run the server. 
+## How to use this Repo
 
-Happy coding!
+This repo has three branches:
+
+* master
+* final
+* final-all-in-one
+
+The `master` branch has a starter template for creating what is in the `final` branch.  The `final-all-in-one` is a single `app-all.js` file that functions completely alone, while the `final` branch is a refactored version of that.
+
+## How to run the app
+
+When you go to each branch, the `README.md` will show you how to start the app.
+
+The `master` branch is incomplete and you can follow the written or video tutorials to complete:
+
+* Written - https://zachgoll.github.io/blog/2019/choosing-authentication-strategy/
+* Video - Coming soon
